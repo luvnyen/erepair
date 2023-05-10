@@ -3,7 +3,6 @@
 }
 
 .content__title {
-    text-align: center;
     color: #104aa3;
 }
 
@@ -16,7 +15,7 @@
 
 .vl {
     border-left: 2px solid #1f76c7;
-    height: 220px;
+    height: 50px;
 }
 
 .details__value {
@@ -30,12 +29,7 @@
     padding: 5px 60px;
     border-radius: 20px;
     font-size: 1rem;
-}
-
-.section__details__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 260px;
 }
 
 .details__container--address {
@@ -52,9 +46,18 @@
 
 .button__container {
     display: flex;
-    justify-content: end;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
 }
 
-.section__order__container {
-    margin-left: 30px;
+.rating__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating__icon {
+    color: #104aa3;
+    font-size: 1.7rem;
 }
