@@ -46,6 +46,11 @@
                 <li class="nav-item mr-4">
                     <a href="./catalog.php">Catalog</a>
                 </li>
+                <!-- If the user has already logged in -->
+                <li class="nav-item mr-4">
+                    <a href="./profile.php">Profile</a>
+                </li>
+                <!-- If the user has not logged in -->
                 <li class="nav-item">
                     <a href="./login.php">Log In</a>
                 </li>
