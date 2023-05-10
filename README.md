@@ -16,4 +16,7 @@
 ![Profile Page](https://github.com/luvnyen/erepair-techno/assets/56993480/243eb8ed-f45a-40c3-92b8-d1e98ba49a4a)
 
 ### Order List Page
-![Order List Page](https://github.com/luvnyen/erepair-techno/assets/56993480/ebf96e12-8023-4dd7-b4a3-89753bfb31fb)
+![Order List Page](https://github.com/luvnyen/erepair-techno/assets/56993480/403e267a-c2c5-4367-8745-feddb5607478)
+
+### Order Progress Page
+![Order Progress Page](https://github.com/luvnyen/erepair-techno/assets/56993480/24951b89-ebfd-4b43-bce0-337b3891dd82)
