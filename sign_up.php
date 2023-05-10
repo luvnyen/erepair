@@ -6,7 +6,7 @@
     <div class="row">
         <div class="section__container-wform col-md-8">
             <h4 class="content__title">Welcome to ERepair</h4>
-            <p class="content_subtitle">Sign Up</p>
+            <p class="content__subtitle">Sign Up</p>
             <form action="#" method="post" id="sign_up__form" class="mt-3">
                 <i class="fa-solid fa-user"></i>
                 <input type="text" name="name" id="name" class="form-control" placeholder="Nama Lengkap" required>

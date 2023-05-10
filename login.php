@@ -12,7 +12,7 @@
         </div>
         <div class="section__container-wform col-md-8">
             <h4 class="content__title">Welcome Back</h4>
-            <p class="content_subtitle">Log In</p>
+            <p class="content__subtitle">Log In</p>
             <form action="#" method="post" id="sign_up__form" class="mt-3">
                 <i class="fa-solid fa-envelope"></i>
                 <input type="email" name="email" id="email" class="form-control" placeholder="Alamat E-mail" required>
