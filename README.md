@@ -1,4 +1,7 @@
 ﻿# erepair-techno
 
 ### Home Page
-![image](https://github.com/luvnyen/repair-techno/assets/56993480/da1f7cd6-b1c8-441c-81da-50afc3e6f70e)
+![Home Page](https://github.com/luvnyen/repair-techno/assets/56993480/da1f7cd6-b1c8-441c-81da-50afc3e6f70e)
+
+### Sign Up Page
+![Sign Up Page](https://github.com/luvnyen/erepair-techno/assets/56993480/1ce638da-e0cf-4eea-ab6d-9f40092f6ea3)
