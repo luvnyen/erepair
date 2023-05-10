@@ -30,7 +30,9 @@
         </div>
         <div class="section__container-right col-md-4">
             <p>Sudah memiliki akun?</p>
-            <button type="button" class="section__button--blue">Log In</button>
+            <a href="#">
+                <button type="button" class="section__button--blue">Log In</button>
+            </a>
         </div>
     </div>
 </div>
