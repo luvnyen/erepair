@@ -1,0 +1,33 @@
+.footer__container {
+    background-color: #114aa3;
+    color: #fff;
+    padding: 70px;
+    width: 100%;
+}
+
+.footer__container ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer__link--horizontal {
+    margin: 0;
+}
+
+.footer__link--horizontal a,
+.footer__copyright {
+    color: #ccc !important;
+}
+
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer__link--horizontal li {
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.footer__section--right {
+    text-align: right;
+}
