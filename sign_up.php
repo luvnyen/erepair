@@ -14,6 +14,10 @@
                 <input type="email" name="email" id="email" class="form-control" placeholder="Alamat E-mail" required>
                 <i class="fa-solid fa-phone"></i>
                 <input type="tel" name="phone" id="phone" class="form-control" placeholder="Nomor Telepon" required>
+                <i class="fa-solid fa-house"></i>
+                <input type="text" name="address" id="address" class="form-control" placeholder="Alamat" required>
+                <i class="fa-solid fa-image"></i>
+                <input type="url" name="picture" id="picture" class="form-control" placeholder="URL Foto Profil" required>
                 <div class="password__container">
                     <i class="fa-solid fa-lock"></i>
                     <i class="toggle-password far fa-eye" id="togglePassword"></i>

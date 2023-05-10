@@ -48,3 +48,11 @@
     border-radius: 30px;
     padding: 10px 40px;
 }
+
+.details__label {
+    color: #1f76c7;
+}
+
+.details__value {
+    color: #104aa3;
+}

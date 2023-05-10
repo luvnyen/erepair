@@ -39,10 +39,8 @@
     justify-content: center;
 }
 
-.button__container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.button--blue:hover {
+    color: #fff;
 }
 
 .button--blue {
@@ -53,14 +51,8 @@
     font-size: 1.2rem;
 }
 
-.button--blue:hover {
-    color: #fff;
-}
-
-.details__label {
-    color: #1f76c7;
-}
-
-.details__value {
-    color: #104aa3;
+.button__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

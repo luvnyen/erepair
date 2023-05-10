@@ -44,6 +44,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-5">
                 <li class="nav-item mr-4">
+                    <a href="./order_list.php">Order List</a>
+                </li>
+                <li class="nav-item mr-4">
                     <a href="./catalog.php">Catalog</a>
                 </li>
                 <!-- If the user has already logged in -->
