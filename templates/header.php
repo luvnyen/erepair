@@ -12,6 +12,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+    <script src="https://kit.fontawesome.com/201ca005c3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
     <title>ERepair</title>
@@ -34,11 +35,11 @@
                 </li>
 
             </ul>
-            <form class="form-inline my-2 my-lg-0" action="#" method="post">
-                <div class="search__container">
+            <form class="form-inline my-2 my-lg-0" action="#" method="post" id="search__form">
+                <div class=" search__container">
                     <input class="search__input form-control" type="search" placeholder="Search" aria-label="Search" required>
                     <button class="search__button btn my-2 my-sm-0" type="submit">
-                        <i class="fas fa-search"></i>
+                        <i class="search__icon fa-solid fa-magnifying-glass"></i>
                     </button>
                 </div>
             </form>

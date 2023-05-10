@@ -1,11 +1,11 @@
-<?php include 'templates/header.php'; ?>
+<?php require_once 'templates/header.php'; ?>
 
-<link rel="stylesheet" href="./style/index.css">
+<link rel="stylesheet" href="./style/pages/index.css">
 
 <div class="content__container">
     <div class="section__container row">
         <div class="section--left-img col-md-6">
-            <img src="./assets/pages/Home 1.jpg" alt="1" class="img-responsive">
+            <img src="./assets/pages/index/Home 1.jpg" alt="1" class="img-responsive">
         </div>
         <div class="section--right-p col-md-6">
             <div>
@@ -29,7 +29,7 @@
             <div>
                 <h3>
                     ABOUT
-                    <img src="./assets/pages/erepair-logo-dark-blue.svg" width="150" height="40" alt="ERepair Logo" loading="lazy">
+                    <img src="./assets/pages/index/erepair-logo-dark-blue.svg" width="150" height="40" alt="ERepair Logo" loading="lazy">
                 </h3>
                 <p>
                     <b>ERepair</b> adalah sebuah website yang membantu memfasilitasi kebutuhan masyarakat dan juga membuka lowongan pekerjaan bagi siapapun yang berminat untuk menerjuni bidang pekerjaan ini. Di ERepair, pelatihan akan diberikan kepada setiap orang yang berminat untuk bekerja oleh orang-orang yang ahli dalam perbaikan alat elektronik. Dengan adanya ERepair, akan ada standarisasi harga dan kualitas yang jelas sehingga konsumen mendapatkan hasil yang memuaskan sesuai harganya dengan kejelasan akan servis-servis yang mereka pesan.
@@ -37,9 +37,9 @@
             </div>
         </div>
         <div class="section--right-img col-md-5">
-            <img src="./assets/pages/Home 3.jpg" alt="1" class="img-responsive">
+            <img src="./assets/pages/index/Home 3.jpg" alt="1" class="img-responsive">
         </div>
     </div>
 </div>
 
-<?php include 'templates/footer.php'; ?>
+<?php require_once 'templates/footer.php'; ?>

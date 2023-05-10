@@ -40,7 +40,7 @@
 }
 
 .section__container--wbg {
-    background-image: url('../assets/pages/Home 2.jpg');
+    background-image: url('../../assets/pages/index/Home 2.jpg');
     background-size: cover;
     text-align: center;
     display: flex;

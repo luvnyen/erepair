@@ -1,8 +1,12 @@
 .footer__container {
     background-color: #114aa3;
-    color: #fff;
     padding: 70px;
     width: 100%;
+}
+
+.footer__container a {
+    color: #fff;
+    text-decoration: none;
 }
 
 .footer__container ul {
