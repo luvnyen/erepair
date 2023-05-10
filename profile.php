@@ -30,7 +30,7 @@
         </div>
     </div>
     <div class="button__container">
-        <a href="#">
+        <a href="./progress.php">
             <button class="btn button--blue">Lihat Pesanan</button>
         </a>
     </div>
