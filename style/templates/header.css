@@ -35,3 +35,12 @@
 .search__icon {
     color: #fff;
 }
+
+.section__button--light-blue {
+    background-color: #def3ff;
+    color: #114aa3;
+    font-weight: bold;
+    border: 2px solid #82c6ed;
+    border-radius: 30px;
+    padding: 10px 40px;
+}

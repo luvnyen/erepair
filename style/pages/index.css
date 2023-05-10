@@ -21,15 +21,6 @@
     padding-right: 200px;
 }
 
-.section__button--blue {
-    background-color: #def3ff;
-    color: #114aa3;
-    font-weight: bold;
-    border: 2px solid #82c6ed;
-    border-radius: 30px;
-    padding: 10px 40px;
-}
-
 .section__button--white {
     background-color: #fff;
     color: #114aa3;

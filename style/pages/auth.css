@@ -5,7 +5,7 @@
     border-radius: 20px;
 }
 
-.section__container-left {
+.section__container-wform {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,6 +41,7 @@
     border: 1px solid #726f6f;
     border-radius: 20px;
     margin-bottom: 10px;
+    width: 320px;
 }
 
 #sign_up__form input[type="checkbox"] {
@@ -52,13 +53,20 @@
     opacity: 1;
 }
 
-.section__container-right {
+.section__container-wbutton {
     background-color: #114aa3;
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.section__container-wbutton-left {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.section__container-wbutton-right {
     border-radius: 0px 20px 20px 0px;
 }
 

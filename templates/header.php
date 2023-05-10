@@ -20,7 +20,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="./index.php">
             <img src="./assets/templates/erepair-logo-left.svg" width="35" height="40" alt="ERepair Logo" loading="lazy">
             <img src="./assets/templates/erepair-logo.svg" width="130" height="50" alt="ERepair Logo" loading="lazy">
         </a>
@@ -31,7 +31,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-5">
                 <li class="nav-item active">
-                    <a href="#">Sign In</a>
+                    <a href="./login.php">Log In</a>
                 </li>
 
             </ul>
