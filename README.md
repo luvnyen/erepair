@@ -20,3 +20,6 @@
 
 ### Order Progress Page
 ![Order Progress Page](https://github.com/luvnyen/erepair-techno/assets/56993480/24951b89-ebfd-4b43-bce0-337b3891dd82)
+
+### Checkout Page
+![Checkout Page](https://github.com/luvnyen/erepair-techno/assets/56993480/c9e81913-bb4b-496b-8210-07a1b4651004)
