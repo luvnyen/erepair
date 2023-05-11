@@ -2,8 +2,13 @@
     padding: 50px 150px;
 }
 
-.content__title {
+.content__title,
+.details__value {
     color: #104aa3;
+}
+
+.details__value {
+    font-weight: 500;
 }
 
 .content__list__container {
@@ -18,12 +23,8 @@
     height: 50px;
 }
 
-.details__value {
-    font-weight: 500;
-    color: #104aa3;
-}
-
-.button--blue {
+.button--blue,
+.button--blue:hover {
     background-color: #114aa3;
     color: #fff;
     padding: 5px 60px;
@@ -38,10 +39,6 @@
 
 .details__value--quant {
     text-align: right;
-}
-
-.button--blue:hover {
-    color: #fff;
 }
 
 .button__container {

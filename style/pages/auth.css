@@ -5,18 +5,17 @@
     border-radius: 20px;
 }
 
-.section__container-wform {
+.section__container-wform,
+.button__container,
+.section__container-wbutton {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 70px 0px;
 }
 
-#sign_up__form i {
-    padding: 10px 0px 0px 15px;
-    position: absolute;
-    color: #726f6f;
+.section__container-wform {
+    padding: 70px 0px;
 }
 
 .toggle-password {
@@ -26,13 +25,6 @@
 
 .password__container {
     position: relative;
-}
-
-.button__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 #sign_up__form input {
@@ -48,18 +40,14 @@
     width: 20px;
 }
 
+#sign_up__form i,
 #sign_up__form::placeholder {
     color: #726f6f;
-    opacity: 1;
 }
 
-.section__container-wbutton {
-    background-color: #114aa3;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#sign_up__form i {
+    padding: 10px 0px 0px 15px;
+    position: absolute;
 }
 
 .section__container-wbutton-left {
@@ -70,22 +58,27 @@
     border-radius: 0px 20px 20px 0px;
 }
 
+.section__button--blue,
+.section__button--white {
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 5px 60px;
+}
+
+.section__container-wbutton,
 .section__button--blue {
     background-color: #114aa3;
     color: #fff;
-    font-weight: bold;
+}
+
+.section__button--blue {
     border: 2px solid #fff;
-    border-radius: 30px;
-    padding: 5px 60px;
 }
 
 .section__button--white {
     background-color: #fff;
     color: #114aa3;
-    font-weight: bold;
     border: 2px solid #114aa3;
-    border-radius: 30px;
-    padding: 5px 60px;
 }
 
 .content__title {

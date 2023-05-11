@@ -2,8 +2,27 @@
     padding: 50px 100px;
 }
 
-.content__title {
+.content__title,
+.input-group .fa,
+.order-summary__product,
+.order-summary__total-price,
+.order-details__price,
+.order-details__label,
+.button__payment {
     color: #104aa3;
+}
+
+.order-details__price,
+.order-details__label {
+    font-weight: 600;
+    margin: 0;
+}
+
+.button__payment {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-weight: 500;
 }
 
 .content__list__container {
@@ -32,10 +51,6 @@
     text-align: center;
 }
 
-.input-group .fa {
-    color: #104aa3;
-}
-
 .order-summary__container,
 .order-details__container,
 .order-total-price__container {
@@ -51,11 +66,6 @@
     width: 170px;
 }
 
-.order-summary__product,
-.order-summary__total-price {
-    color: #104aa3;
-}
-
 .order-summary__total-price {
     display: flex;
     justify-content: flex-end;
@@ -64,15 +74,6 @@
 .order-summary__price {
     color: #1f76c7;
     font-weight: 500;
-    display: flex;
-    justify-content: flex-start !important;
-}
-
-.order-details__price,
-.order-details__label {
-    color: #104aa3;
-    font-weight: 600;
-    margin: 0;
 }
 
 .order-details__label--total,
@@ -124,16 +125,8 @@ hr {
 .button--blue {
     background-color: #114aa3;
     color: #fff;
-    padding: 10x 60px;
+    padding: 10px 60px;
     border-radius: 20px;
     font-size: 1.2rem;
     width: 100%;
-}
-
-.button__payment {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    color: #104aa3;
-    font-weight: 500;
 }

@@ -7,16 +7,21 @@
     padding: 0px 70px !important;
 }
 
+.search__input,
+.search__input::placeholder,
+.nav-item a,
+.search__icon {
+    color: #fff !important;
+}
+
 .search__input {
     background-color: transparent !important;
     border-radius: 20px !important;
     padding-left: 20px !important;
-    color: #fff !important;
 }
 
-.search__input::placeholder {
-    color: #fff !important;
-    opacity: 1;
+.nav-item a {
+    text-decoration: none !important;
 }
 
 .search__input[type="search"]::-webkit-search-cancel-button {
@@ -29,15 +34,6 @@
 
 .nav-item {
     margin: 0 !important;
-}
-
-.nav-item a {
-    color: #fff !important;
-    text-decoration: none !important;
-}
-
-.search__icon {
-    color: #fff;
 }
 
 .section__button--light-blue {
