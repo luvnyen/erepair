@@ -2,8 +2,13 @@
     padding: 50px 150px;
 }
 
-.content__title {
+.ktp__container,
+.content__title,
+.additional__input {
     color: #104aa3;
+}
+
+.content__title {
     text-align: center;
 }
 
@@ -21,10 +26,15 @@
 }
 
 .button--blue,
+.button--blue:hover,
+.content__number__container {
+    color: #fff;
+}
+
+.button--blue,
 .button--blue:hover {
     background-color: #114aa3;
-    color: #fff;
-    padding: 5px 60px;
+    padding: 10px 60px;
     border-radius: 20px;
     font-size: 1.2rem;
 }
@@ -40,7 +50,6 @@
 
 .content__number__container {
     background-color: #1f76c7;
-    color: #fff;
     border-radius: 50%;
     padding: 0;
     display: flex;
@@ -49,23 +58,21 @@
     align-items: center;
 }
 
-.content__chapter {
+.content__chapter,
+.additional__container {
     color: #1f76c7;
+}
+
+.content__chapter {
+    font-weight: 500;
 }
 
 .ktp__image {
     border-radius: 5px;
 }
 
-.ktp__container {
-    color: #104aa3;
-}
-
-.additional__container {
-    color: #1f76c7;
-}
-
-.chapter__subtitle {
+.chapter__subtitle,
+.additional__subtitle {
     font-weight: 500;
 }
 
@@ -73,7 +80,6 @@
     margin-left: 10px;
     border: none;
     border-bottom: 1px solid #104aa3;
-    color: #104aa3;
 }
 
 .additional__input--address {
@@ -97,7 +103,20 @@ hr {
     -moz-appearance: textfield;
 }
 
+.additional__map__container {
+    padding: 20px 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.additional__map {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
+
 /* FILE UPLOAD */
+
 :root {
     --colorPrimaryNormal: #00b3bb;
     --colorPrimaryGlare: #1f76c7;
@@ -133,18 +152,4 @@ hr {
 
 .upload__icon {
     font-size: 2.5rem;
-}
-
-.additional__subtitle {
-    font-weight: 500;
-}
-
-.additional__map__container {
-    padding: 20px 15px;
-}
-
-.additional__map {
-    width: 100%;
-    height: 300px;
-    border-radius: 10px;
 }

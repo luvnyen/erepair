@@ -34,7 +34,7 @@
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="./index.php">
             <img src="./assets/templates/erepair-logo-left.svg" width="35" height="40" alt="ERepair Logo" loading="lazy">
-            <img src="./assets/templates/erepair-logo.svg" width="130" height="50" alt="ERepair Logo" loading="lazy">
+            <img src="./assets/templates/erepair-logo.svg" width="130" height="70" alt="ERepair Logo" loading="lazy">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -46,7 +46,7 @@
                     <a href="./catalog.php">Katalog</a>
                 </li>
                 <li class="nav-item mr-4">
-                    <a href="./order_list.php">Pesanan Masuk</a>
+                    <a href="./incoming_order.php">Pesanan Masuk</a>
                 </li>
                 <!-- If the user has already logged in -->
                 <li class="nav-item mr-4">
@@ -54,7 +54,7 @@
                 </li>
                 <!-- If the user has not logged in -->
                 <li class="nav-item">
-                    <a href="./login.php">Masuk</a>
+                    <a href="./login.php"><i class="fa-solid fa-right-to-bracket mr-2"></i>Masuk</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0" action="./catalog.php" method="post" id="search__form">

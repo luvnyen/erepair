@@ -38,7 +38,7 @@
                 <p>
                     Pesan layanan ERepair dan nikmati keunggulannya! Kami adalah <i>platform</i> perbaikan alat elektronik yang terpercaya. Dapatkan teknisi ahli dengan standar harga dan kualitas jelas. Kami menyediakan hasil yang memuaskan dan layanan yang terjamin. Pesan sekarang dan rasakan perbaikan yang handal serta dapat dipercaya!
                 </p>
-                <a href="#">
+                <a href="./catalog.php">
                     <button type="button" class="section__button--light-blue">PESAN SEKARANG</button>
                 </a>
             </div>

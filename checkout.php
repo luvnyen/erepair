@@ -89,7 +89,9 @@
                 </div>
             </div>
             <div class="button__container mt-4 mb-4">
-                <button class="btn button--blue" onclick="">Bayar Sekarang</button>
+                <a href="./customer_details.php">
+                    <button class="btn button--blue" onclick="">Tahap Berikutnya<i class="fa-solid fa-arrow-right ml-2"></i></button>
+                </a>
             </div>
         </div>
     </div>

@@ -24,9 +24,9 @@
                         <!-- FILE UPLOAD -->
                         <fieldset class="upload_dropZone text-center mb-3 p-4">
                             <i class="upload__icon fa-solid fa-cloud-arrow-up"></i>
-                            <p class="small my-2">Seret atau jatuhkan file di sini<br>atau</p>
+                            <p class="small my-2">Seret atau lepas file di sini<br>atau</p>
                             <input id="ktp_upload_image_background" data-post-name="image_background" data-post-url="https://someplace.com/image/uploads/backgrounds/" class="position-absolute invisible" type="file" multiple accept="image/jpeg, image/png" required />
-                            <label class="btn btn-upload mb-3" for="ktp_upload_image_background">Pilih File</label>
+                            <label class="btn btn-upload mb-3" for="ktp_upload_image_background">Pilih file</label>
                             <div class="upload_gallery d-flex flex-wrap justify-content-center gap-3 mb-0"></div>
                         </fieldset>
                         <!-- END FILE UPLOAD -->
@@ -42,8 +42,8 @@
                         <img src="./assets/pages/career/Career 1.jpg" width="170" height="120" class="ktp__image" alt="KTP" loading="lazy">
                         <p class="chapter__subtitle mt-3">Panduan foto KTP</p>
                         <ul>
-                            <li>KTP asli, bukan fotokopi</li>
-                            <li>Atas nama sendiri, bukan orang lain</li>
+                            <li>KTP asli dan bukan fotokopi</li>
+                            <li>Atas nama sendiri dan bukan orang lain</li>
                             <li>Tidak buram</li>
                             <li>Tidak terlalu gelap atau terang</li>
                         </ul>
@@ -56,9 +56,9 @@
                         <!-- FILE UPLOAD -->
                         <fieldset class="upload_dropZone text-center mb-3 p-4">
                             <i class="upload__icon fa-solid fa-cloud-arrow-up"></i>
-                            <p class="small my-2">Seret atau jatuhkan file di sini<br>atau</p>
+                            <p class="small my-2">Seret atau lepas file di sini<br>atau</p>
                             <input id="selfie_ktp_upload_image_background" data-post-name="image_background" data-post-url="https://someplace.com/image/uploads/backgrounds/" class="position-absolute invisible" type="file" multiple accept="image/jpeg, image/png" required />
-                            <label class="btn btn-upload mb-3" for="selfie_ktp_upload_image_background">Pilih File</label>
+                            <label class="btn btn-upload mb-3" for="selfie_ktp_upload_image_background">Pilih file</label>
                             <div class="upload_gallery d-flex flex-wrap justify-content-center gap-3 mb-0"></div>
                         </fieldset>
                         <!-- END FILE UPLOAD -->
@@ -89,7 +89,7 @@
                     <div class="content__number__container col-md-1">
                         <span class="content__number">2</span>
                     </div>
-                    <div class=" content__chapter__container col-md-9">
+                    <div class="content__chapter__container col-md-9">
                         <span class="content__chapter">Informasi Tambahan</span>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
             <div class="additional__container col-md-9">
                 <div class="row">
                     <div class="col-md-12">
-                        <label for="nik">Nomor Induk Kependudukan</label>
+                        <label for="nik">NIK (Nomor Induk Kependudukan)</label>
                         <input class="additional__input" type="number" id="nik" name="nik" required>
                     </div>
                     <div class="col-md-12">
@@ -116,13 +116,17 @@
                         <input class="additional__input" type="number" id="postal_code" name="postal_code" required>
                     </div>
                 </div>
-                <div class="additional__map__container row">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15828.510662377445!2d112.7375639!3d-7.3395572!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb4867925b0b%3A0xd06ae2d4f0af3f59!2sPetra%20Christian%20University!5e0!3m2!1sen!2sid!4v1683831474482!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="additional__map"></iframe>
-                </div>
-                <div class=" row">
+                <div class="row">
                     <div class="col-md-12">
                         <label for="address">Alamat</label>
                         <input class="additional__input additional__input--address" type="text" id="address" name="address">
+                    </div>
+                </div>
+                <div class="additional__map__container row">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15828.510662377445!2d112.7375639!3d-7.3395572!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb4867925b0b%3A0xd06ae2d4f0af3f59!2sPetra%20Christian%20University!5e0!3m2!1sen!2sid!4v1683831474482!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="additional__map"></iframe>
+                    <div class="custom-control custom-switch mt-2">
+                        <input type="checkbox" class="custom-control-input" id="currentLocationSwitch">
+                        <label class="custom-control-label" for="currentLocationSwitch">Gunakan lokasi saat ini</label>
                     </div>
                 </div>
                 <hr>
