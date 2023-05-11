@@ -4,44 +4,44 @@
 
 <div class="content__container">
     <div class="section__container row">
-        <div class="section--left-img col-md-6">
-            <img src="./assets/pages/index/Home 1.jpg" alt="1" class="img-responsive">
-        </div>
-        <div class="section--right-p col-md-6">
-            <div>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                </p>
-                <a href="#">
-                    <button type="button" class="section__button--light-blue">PESAN SEKARANG!</button>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="section__container section__container--wbg row">
-        <div class="section__container--layer">
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <a href="./career.php">
-                <button type="button" class="section__button--white">IKUTI TIM KAMI!</button>
-            </a>
-        </div>
-    </div>
-    <div class="section__container row">
         <div class="section--left-p col-md-7">
             <div>
                 <h3>
-                    ABOUT
+                    TENTANG
                     <img src="./assets/pages/index/erepair-logo-dark-blue.svg" width="150" height="40" alt="ERepair Logo" loading="lazy">
                 </h3>
                 <p>
-                    <b>ERepair</b> adalah sebuah website yang membantu memfasilitasi kebutuhan masyarakat dan juga membuka lowongan pekerjaan bagi siapapun yang berminat untuk menerjuni bidang pekerjaan ini. Di ERepair, pelatihan akan diberikan kepada setiap orang yang berminat untuk bekerja oleh orang-orang yang ahli dalam perbaikan alat elektronik. Dengan adanya ERepair, akan ada standarisasi harga dan kualitas yang jelas sehingga konsumen mendapatkan hasil yang memuaskan sesuai harganya dengan kejelasan akan servis-servis yang mereka pesan.
+                    Bersama ERepair, kami hadir untuk memenuhi kebutuhan Anda dengan layanan yang luar biasa dan peluang karir yang menarik. Kami adalah jembatan yang menghubungkan masyarakat dengan ahli perbaikan alat elektronik terbaik. Dapatkan kesempatan untuk belajar langsung dari para pakar di industri ini, menjadikan Anda ahli yang handal. Melalui ERepair, kami menjamin standar kualitas dan harga yang transparan, sehingga Anda akan puas dengan hasil yang sesuai dengan nilai yang Anda bayar. Jadi, tunggu apa lagi? Temukan kejelasan dan kepuasan dalam setiap layanan yang Anda pesan melalui ERepair!
                 </p>
             </div>
         </div>
         <div class="section--right-img col-md-5">
             <img src="./assets/pages/index/Home 3.jpg" alt="1" class="img-responsive">
+        </div>
+    </div>
+    <div class="section__container section__container--wbg row">
+        <div class="section__container--layer">
+            <p>
+                Bergabunglah dengan perusahaan kami yang berkembang pesat di industri perbaikan alat elektronik. Kami menawarkan pelatihan komprehensif dan dukungan tim yang berpengalaman. Temukan kesempatan untuk tumbuh dan berkembang dalam lingkungan kerja yang mendukung. Bergabunglah sekarang dan raih masa depan cerah dalam industri ini!
+            </p>
+            <a href="./career.php">
+                <button type="button" class="section__button--white">BERGABUNG BERSAMA KAMI</button>
+            </a>
+        </div>
+    </div>
+    <div class="section__container row">
+        <div class="section--left-img col-md-6">
+            <img src="./assets/pages/index/Home 1.jpg" width="550" alt="1" class="section__image img-responsive">
+        </div>
+        <div class="section--right-p col-md-6">
+            <div>
+                <p>
+                    Pesan layanan ERepair dan nikmati keunggulannya! Kami adalah <i>platform</i> perbaikan alat elektronik yang terpercaya. Dapatkan teknisi ahli dengan standar harga dan kualitas jelas. Kami menyediakan hasil yang memuaskan dan layanan yang terjamin. Pesan sekarang dan rasakan perbaikan yang handal serta dapat dipercaya!
+                </p>
+                <a href="#">
+                    <button type="button" class="section__button--light-blue">PESAN SEKARANG</button>
+                </a>
+            </div>
         </div>
     </div>
 </div>

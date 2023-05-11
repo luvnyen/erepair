@@ -5,23 +5,26 @@
         <div class="col-md-2">
             <ul class=".footer__link--vertical">
                 <li>
-                    <a href=" #">Home</a>
+                    <a href="./index.php">Halaman Utama</a>
                 </li>
+
+                <!-- Showcase your team members (?) -->
                 <li>
-                    <a href="#">About</a>
+                    <a href="#">Tentang Kami</a>
                 </li>
+
                 <li>
-                    <a href="#">Join Us</a>
+                    <a href="./career.php">Karir</a>
                 </li>
             </ul>
         </div>
         <div class="col-md-2">
             <ul class=".footer__link--vertical">
                 <li>
-                    <a href="#">Help Center</a>
+                    <a href="#">Pusat Bantuan</a>
                 </li>
                 <li>
-                    <a href="#">Feedback</a>
+                    <a href="#">Kritik dan Saran</a>
                 </li>
             </ul>
         </div>
@@ -47,13 +50,13 @@
         <div class="col-md-6">
             <ul class="footer__link--horizontal">
                 <li>
-                    <a href="#">CONTACT US</a>
+                    <a href="mailto:erepair@technopreneurship.com">HUBUNGI KAMI</a>
                 </li>
                 <li class="ml-5">
-                    <a href="#">PRIVACY POLICY</a>
+                    <a href="#">KEBIJAKAN PRIVASI</a>
                 </li>
                 <li class="ml-5">
-                    <a href="#">TERMS OF USE</a>
+                    <a href="#">SYARAT PENGGUNAAN</a>
                 </li>
             </ul>
         </div>

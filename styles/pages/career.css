@@ -85,6 +85,18 @@ hr {
     margin: 35px 0;
 }
 
+/* Chrome, Safari, Edge, Opera */
+.additional__container input::-webkit-outer-spin-button,
+.additional__container input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+.additional__container input[type=number] {
+    -moz-appearance: textfield;
+}
+
 /* FILE UPLOAD */
 :root {
     --colorPrimaryNormal: #00b3bb;
@@ -129,7 +141,7 @@ hr {
 
 .additional__map__container {
     padding: 20px 15px;
-} 
+}
 
 .additional__map {
     width: 100%;

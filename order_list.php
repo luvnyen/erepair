@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="./styles/pages/order.css">
 
 <div class="content__container">
-    <h4 class="content__title mb-4">Daftar Pesanan</h4>
+    <h4 class="content__title mb-4">Daftar Pesanan Masuk</h4>
     <div class="content__list__container row mb-5">
         <div class="section__details__container col-md-6">
             <div class="row">
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="button__container mt-5">
-                <button class="btn button--blue" onclick="">Pesanan Selesai</button>
+                <button class="btn button--blue" onclick="">Ubah ke Selesai</button>
             </div>
         </div>
     </div>
@@ -76,7 +76,7 @@
                 </div>
             </div>
             <div class="button__container mt-5">
-                <button class="btn button--blue" onclick="">Pesanan Selesai</button>
+                <button class="btn button--blue" onclick="">Ubah ke Selesai</button>
             </div>
         </div>
     </div>
@@ -114,7 +114,7 @@
                 </div>
             </div>
             <div class="button__container mt-5">
-                <button class="btn button--blue" onclick="">Pesanan Selesai</button>
+                <button class="btn button--blue" onclick="">Ubah ke Selesai</button>
             </div>
         </div>
     </div>

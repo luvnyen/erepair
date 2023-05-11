@@ -43,29 +43,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-5">
                 <li class="nav-item mr-4">
-                    <a href="./checkout.php">Checkout</a>
+                    <a href="./catalog.php">Katalog</a>
                 </li>
                 <li class="nav-item mr-4">
-                    <a href="./progress.php">Order Progress</a>
-                </li>
-                <li class="nav-item mr-4">
-                    <a href="./order_list.php">Order List</a>
-                </li>
-                <li class="nav-item mr-4">
-                    <a href="./catalog.php">Catalog</a>
+                    <a href="./order_list.php">Pesanan Masuk</a>
                 </li>
                 <!-- If the user has already logged in -->
                 <li class="nav-item mr-4">
-                    <a href="./profile.php">Profile</a>
+                    <a href="./profile.php">Profil</a>
                 </li>
                 <!-- If the user has not logged in -->
                 <li class="nav-item">
-                    <a href="./login.php">Log In</a>
+                    <a href="./login.php">Masuk</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0" action="#" method="post" id="search__form">
+            <form class="form-inline my-2 my-lg-0" action="./catalog.php" method="post" id="search__form">
                 <div class=" search__container">
-                    <input class="search__input form-control" type="search" id="search" placeholder="Search" aria-label="Search" required>
+                    <input class="search__input form-control" type="search" id="search" placeholder="Lagi cari apa?" aria-label="Search" required>
                     <button class="search__button btn my-2 my-sm-0" type="submit">
                         <i class="search__icon fa-solid fa-magnifying-glass"></i>
                     </button>

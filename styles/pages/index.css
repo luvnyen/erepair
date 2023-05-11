@@ -55,3 +55,9 @@
 .section--left-p p {
     padding-left: 200px;
 }
+
+.section__image {
+    border-radius: 30px;
+    /* give shadow */
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+}

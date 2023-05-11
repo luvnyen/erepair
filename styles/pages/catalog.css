@@ -3,9 +3,12 @@
 }
 
 .search-package__input,
-.search-package__input::placeholder,
 .search-package__icon {
     color: #5881bf !important;
+}
+
+.search-package__input::placeholder {
+    color: #21457c !important;
 }
 
 .search-package__input {

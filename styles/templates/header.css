@@ -8,10 +8,13 @@
 }
 
 .search__input,
-.search__input::placeholder,
 .nav-item a,
 .search__icon {
     color: #fff !important;
+}
+
+.search__input::placeholder {
+    color: #ccc !important;
 }
 
 .search__input {
