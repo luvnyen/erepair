@@ -23,3 +23,6 @@
 
 ### Checkout Page
 ![Checkout Page](https://github.com/luvnyen/erepair-techno/assets/56993480/c9e81913-bb4b-496b-8210-07a1b4651004)
+
+### Career Page
+![Career Page](https://github.com/luvnyen/erepair-techno/assets/56993480/9d66f176-91dc-4e61-bed5-f24fa8eae03e)
