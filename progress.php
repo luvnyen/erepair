@@ -29,7 +29,7 @@
                     <span class="details__value">13:00</span>
                 </div>
                 <div class="button__container col-md-6">
-                    <button class="btn button--blue" onclick="">Selesaikan Pesanan</button>
+                    <button class="btn button--blue" onclick="">Pesanan Selesai</button>
                 </div>
             </div>
         </div>

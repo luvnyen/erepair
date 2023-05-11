@@ -1,0 +1,139 @@
+.content__container {
+    padding: 50px 100px;
+}
+
+.content__title {
+    color: #104aa3;
+}
+
+.content__list__container {
+    box-shadow: 4px 4px 8px 4px rgba(23, 114, 226, 0.2), 4px 6px 20px 0 rgba(13, 71, 164, 0.19);
+    border-radius: 20px;
+    padding: 30px 50px;
+    justify-content: center;
+}
+
+.quant__container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.details__value--quant {
+    text-align: right;
+}
+
+.input-group {
+    box-shadow: 2px 2px 4px 2px rgba(23, 114, 226, 0.2), 2px 3px 10px 0 rgba(13, 71, 164, 0.19);
+    width: 80%;
+    border-radius: 10px;
+}
+
+.input-number {
+    text-align: center;
+}
+
+.input-group .fa {
+    color: #104aa3;
+}
+
+.order-summary__container,
+.order-details__container,
+.order-total-price__container {
+    box-shadow: 4px 4px 8px 4px rgba(23, 114, 226, 0.2), 4px 6px 20px 0 rgba(13, 71, 164, 0.19);
+    border-radius: 20px;
+    padding: 20px 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-summary__image {
+    border-radius: 20px;
+    width: 170px;
+}
+
+.order-summary__product,
+.order-summary__total-price {
+    color: #104aa3;
+}
+
+.order-summary__total-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.order-summary__price {
+    color: #1f76c7;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-start !important;
+}
+
+.order-details__price,
+.order-details__label {
+    color: #104aa3;
+    font-weight: 600;
+    margin: 0;
+}
+
+.order-details__label--total,
+.order-details__label--method {
+    color: #1f76c7;
+    margin: 0;
+}
+
+.order-details__price {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order-details__price__container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+hr {
+    border: 1px solid #104aa3;
+    margin: 30px 0;
+}
+
+.order-details__container {
+    padding: 40px 40px;
+}
+
+.order-total-price__container {
+    padding: 20px 40px;
+}
+
+.payment__container {
+    padding: 0 20px;
+}
+
+.order-details__description {
+    color: #1f76c7;
+    font-size: 14px;
+}
+
+.order-details__price--free {
+    color: green;
+    font-weight: bold;
+}
+
+.button--blue {
+    background-color: #114aa3;
+    color: #fff;
+    padding: 10x 60px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.button__payment {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #104aa3;
+    font-weight: 500;
+}

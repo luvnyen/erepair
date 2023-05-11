@@ -44,6 +44,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-5">
                 <li class="nav-item mr-4">
+                    <a href="./checkout.php">Checkout</a>
+                </li>
+                <li class="nav-item mr-4">
                     <a href="./progress.php">Order Progress</a>
                 </li>
                 <li class="nav-item mr-4">

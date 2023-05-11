@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="button__container mt-5">
-                <button class="btn button--blue" onclick="">Selesaikan Pesanan</button>
+                <button class="btn button--blue" onclick="">Pesanan Selesai</button>
             </div>
         </div>
     </div>
@@ -76,7 +76,7 @@
                 </div>
             </div>
             <div class="button__container mt-5">
-                <button class="btn button--blue" onclick="">Selesaikan Pesanan</button>
+                <button class="btn button--blue" onclick="">Pesanan Selesai</button>
             </div>
         </div>
     </div>
@@ -114,7 +114,7 @@
                 </div>
             </div>
             <div class="button__container mt-5">
-                <button class="btn button--blue" onclick="">Selesaikan Pesanan</button>
+                <button class="btn button--blue" onclick="">Pesanan Selesai</button>
             </div>
         </div>
     </div>
