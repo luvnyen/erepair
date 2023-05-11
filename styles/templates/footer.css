@@ -11,7 +11,8 @@
 
 .footer__container ul {
     padding: 0;
-    list-style: none;
+    list-style-type: none;
+
 }
 
 .footer__link--horizontal {
@@ -23,7 +24,7 @@
     color: #ccc !important;
 }
 
-li:not(:last-child) {
+.footer__container li:not(:last-child) {
     margin-bottom: 10px;
 }
 

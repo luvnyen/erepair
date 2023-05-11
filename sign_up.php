@@ -1,6 +1,6 @@
 <?php require_once 'templates/header.php'; ?>
 
-<link rel="stylesheet" href="./style/pages/auth.css">
+<link rel="stylesheet" href="./styles/pages/auth.css">
 
 <div class="content__container">
     <div class="row">
@@ -41,20 +41,6 @@
     </div>
 </div>
 
-<script>
-    // Credit to: https://www.csestack.org/hide-show-password-eye-icon-html-javascript/
-
-    const togglePassword = document.querySelector('#togglePassword');
-    const password = document.querySelector('#password');
-
-    togglePassword.addEventListener('click', function(e) {
-        // Toggle the type attribute
-        const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-        password.setAttribute('type', type);
-
-        // Toggle the eye slash icon
-        this.classList.toggle('fa-eye-slash');
-    });
-</script>
+<script src="./scripts/show_password.js"></script>
 
 <?php require_once 'templates/footer.php'; ?>

@@ -1,6 +1,6 @@
 <?php require_once 'templates/header.php'; ?>
 
-<link rel="stylesheet" href="./style/pages/profile.css">
+<link rel="stylesheet" href="./styles/pages/profile.css">
 
 <div class="content__container">
     <div class="row">

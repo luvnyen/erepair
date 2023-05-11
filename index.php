@@ -1,6 +1,6 @@
 <?php require_once 'templates/header.php'; ?>
 
-<link rel="stylesheet" href="./style/pages/index.css">
+<link rel="stylesheet" href="./styles/pages/index.css">
 
 <div class="content__container">
     <div class="section__container row">
@@ -12,7 +12,9 @@
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
-                <button type="button" class="section__button--light-blue">PESAN SEKARANG!</button>
+                <a href="#">
+                    <button type="button" class="section__button--light-blue">PESAN SEKARANG!</button>
+                </a>
             </div>
         </div>
     </div>
@@ -21,7 +23,9 @@
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
-            <button type="button" class="section__button--white">IKUTI TIM KAMI!</button>
+            <a href="./career.php">
+                <button type="button" class="section__button--white">IKUTI TIM KAMI!</button>
+            </a>
         </div>
     </div>
     <div class="section__container row">

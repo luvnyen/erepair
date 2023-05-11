@@ -1,6 +1,6 @@
 <?php require_once 'templates/header.php'; ?>
 
-<link rel="stylesheet" href="./style/pages/order.css">
+<link rel="stylesheet" href="./styles/pages/order.css">
 
 <div class="content__container">
     <h4 class="content__title mb-4">Daftar Pesanan</h4>

@@ -1,6 +1,6 @@
 <?php require_once 'templates/header.php'; ?>
 
-<link rel="stylesheet" href="./style/pages/progress.css">
+<link rel="stylesheet" href="./styles/pages/progress.css">
 
 <div class="content__container">
     <h4 class="content__title mb-4">Pesanan dalam Proses</h4>
