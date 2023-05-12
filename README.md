@@ -1,28 +1,33 @@
-﻿# erepair-techno
+﻿# erepair
 
 ### Home Page
-![Home Page](https://github.com/luvnyen/repair-techno/assets/56993480/da1f7cd6-b1c8-441c-81da-50afc3e6f70e)
+![image](https://github.com/luvnyen/erepair-techno/assets/56993480/c0521b03-8f0d-4ecc-9f9c-17c7606cc544)
 
 ### Sign Up Page
-![Sign Up Page](https://github.com/luvnyen/erepair-techno/assets/56993480/0115ec51-56ba-4ce3-91b9-0e421f10c907)
+![image](https://github.com/luvnyen/erepair-techno/assets/56993480/bcf22f4d-4b30-47ed-bbde-a272abab0fe8)
 
 ### Log In Page
-![Log In Page](https://github.com/luvnyen/erepair-techno/assets/56993480/84a0f78e-7782-4805-ad63-60a06a0a0741)
+![image](https://github.com/luvnyen/erepair-techno/assets/56993480/a533812c-b8df-4ab2-bb00-e386f8d660a0)
 
 ### Catalog Page
-![Catalog Page](https://github.com/luvnyen/erepair-techno/assets/56993480/380e0b97-aced-49d6-b87e-8bec29b736da)
+![image](https://github.com/luvnyen/erepair-techno/assets/56993480/4bb5a2da-da3b-4a5c-b488-37d09da9754e)
 
 ### Profile Page
-![Profile Page](https://github.com/luvnyen/erepair-techno/assets/56993480/243eb8ed-f45a-40c3-92b8-d1e98ba49a4a)
+![image](https://github.com/luvnyen/erepair-techno/assets/56993480/34020825-4f75-40d7-b8e5-75c823285d6e)
 
-### Order List Page
-![Order List Page](https://github.com/luvnyen/erepair-techno/assets/56993480/403e267a-c2c5-4367-8745-feddb5607478)
+### Incoming Order Page
+![image](https://github.com/luvnyen/erepair-techno/assets/56993480/92616f0d-8a78-4d34-a2c5-21ed3bca1634)
 
 ### Order Progress Page
-![Order Progress Page](https://github.com/luvnyen/erepair-techno/assets/56993480/24951b89-ebfd-4b43-bce0-337b3891dd82)
+![image](https://github.com/luvnyen/erepair-techno/assets/56993480/99dbce05-7063-4009-ad43-be162805050c)
+![image](https://github.com/luvnyen/erepair-techno/assets/56993480/83876d9d-b41a-4ff6-a56d-5247d315943f)
 
 ### Checkout Page
-![Checkout Page](https://github.com/luvnyen/erepair-techno/assets/56993480/c9e81913-bb4b-496b-8210-07a1b4651004)
+![image](https://github.com/luvnyen/erepair-techno/assets/56993480/e5b5b641-c9da-4ea1-bd72-302f8f085a57)
+![image](https://github.com/luvnyen/erepair-techno/assets/56993480/78bd2d6f-5098-4b51-bdf5-c7140f0647a4)
 
 ### Career Page
-![Career Page](https://github.com/luvnyen/erepair-techno/assets/56993480/9d66f176-91dc-4e61-bed5-f24fa8eae03e)
+![image](https://github.com/luvnyen/erepair-techno/assets/56993480/01e01719-3816-44d3-a4a7-08f86319ed19)
+
+### Customer Details Page
+![image](https://github.com/luvnyen/erepair-techno/assets/56993480/605e7958-4d50-4884-a1a8-f8346a71b1af)
