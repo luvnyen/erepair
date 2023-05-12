@@ -79,12 +79,13 @@
                 </div>
             </div>
             <div class="payment__container row mt-4">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <span class="order-details__label--method">Metode Pembayaran</span>
                 </div>
-                <div class="col-md-6">
-                    <button class="button__payment">
-                        Transfer BCA&nbsp;<i class="fa-solid fa-chevron-down"></i>
+                <div class="col-md-8">
+                    <button class="button__payment" data-toggle="modal" data-target="#paymentMethodModal">
+                        <span id="bank__choice">Bank Central Asia</span>
+                        &nbsp;<i class="fa-solid fa-chevron-down"></i>
                     </button>
                 </div>
             </div>
@@ -97,6 +98,79 @@
     </div>
 </div>
 
+<!-- Payment Method Modal -->
+<div class="modal fade" id="paymentMethodModal" tabindex="-1" aria-labelledby="paymentMethodModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h5 class="modal__title">Metode Pembayaran</h5>
+                <div class="row mt-4">
+                    <div class="col-md-12">
+                        <span class="details__label details__label--modal">
+                            <i class="fa-solid fa-money-check-dollar mr-2"></i>Transfer Bank (Virtual Account)
+                        </span><br>
+                        <div class="bank__container mt-2">
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="bank" id="bca" value="Bank Central Asia" checked>
+                                <label class="form-check-label details__value" for="bca">
+                                    <img src="./assets/pages/checkout/bank-bca.png" class="bank__icon" alt="Bank Central Asia">
+                                    Bank Central Asia
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="bank" id="mandiri" value="Bank Mandiri">
+                                <label class="form-check-label details__value" for="mandiri">
+                                    <img src="./assets/pages/checkout/bank-mandiri.png" class="bank__icon" alt="Bank Mandiri">
+                                    Bank Mandiri
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="bank" id="bni" value="Bank Negara Indonesia">
+                                <label class="form-check-label details__value" for="bni">
+                                    <img src="./assets/pages/checkout/bank-bni.png" class="bank__icon" alt="Bank Negara Indonesia">
+                                    Bank Negara Indonesia
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="bank" id="bri" value="Bank Rakyat Indonesia">
+                                <label class="form-check-label details__value" for="bri">
+                                    <img src="./assets/pages/checkout/bank-bri.png" class="bank__icon" alt="Bank Rakyat Indonesia">
+                                    Bank Rakyat Indonesia
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="bank" id="bsi" value="Bank Syariah Indonesia">
+                                <label class="form-check-label details__value" for="bsi">
+                                    <img src="./assets/pages/checkout/bank-bsi.png" class="bank__icon" alt="Bank Syariah Indonesia">
+                                    Bank Syariah Indonesia
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="button__container--modal mt-5">
+                    <button class="btn button--blue button--blue--modal" onclick="changePaymentMethod()" data-dismiss="modal">Konfirmasi</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script src="./scripts/product_quantity.js"></script>
+<script>
+    function changePaymentMethod() {
+        var bank = document.getElementsByName('bank');
+        var bankChoice = document.getElementById('bank__choice');
+
+        for (var i = 0; i < bank.length; i++) {
+            if (bank[i].checked) {
+                bankChoice.innerHTML = bank[i].value;
+            }
+        }
+    }
+</script>
 
 <?php require_once 'templates/footer.php'; ?>

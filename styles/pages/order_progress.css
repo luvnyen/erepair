@@ -3,7 +3,9 @@
 }
 
 .content__title,
-.details__value {
+.details__value,
+.rating__icon,
+.modal__title {
     color: #104aa3;
 }
 
@@ -55,6 +57,109 @@
 }
 
 .rating__icon {
-    color: #104aa3;
     font-size: 1.7rem;
+}
+
+.modal-content {
+    border-radius: 20px;
+    padding: 30px 35px;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal__title {
+    text-align: center;
+}
+
+.modal-body hr {
+    background: #104aa3;
+}
+
+.button__container--modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button--blue--modal,
+.button--blue--modal:hover {
+    width: fit-content;
+}
+
+.rating__icon--modal {
+    font-size: 1.2rem;
+}
+
+.modal__rating__container {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.modal__section__container {
+    display: flex;
+    align-items: center;
+}
+
+.modal__image--circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+/* RATING */
+
+.rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+}
+
+.rating label:nth-child(1) {
+    z-index: 5;
+}
+
+.rating label:nth-child(2) {
+    z-index: 4;
+}
+
+.rating label:nth-child(3) {
+    z-index: 3;
+}
+
+.rating label:nth-child(4) {
+    z-index: 2;
+}
+
+.rating label:nth-child(5) {
+    z-index: 1;
+}
+
+.rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.rating label .icon {
+    float: left;
+    color: transparent;
+    font-size: 1.7rem;
+}
+
+.rating label:last-child .icon {
+    color: #000;
+}
+
+.rating:not(:hover) label input:checked~.icon,
+.rating:hover label:hover input~.icon {
+    color: #104aa3;
+}
+
+.rating label input:focus:not(:checked)~.icon:last-child {
+    color: #000;
 }

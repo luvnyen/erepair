@@ -6,15 +6,88 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- CSS -->
     <link rel="stylesheet" href="./styles/templates/header.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/201ca005c3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
-    <title>ERepair</title>
+    <!-- Favicon - generated from https://favicon.io/favicon-converter/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+
+    <?php
+        $page = basename($_SERVER['PHP_SELF'], '.php');
+        $title = '<title>ERepair – %s</title>';
+        switch ($page) {
+            case 'career':
+                echo sprintf(
+                    $title,
+                    'Karir'
+                );
+                break;
+            case 'catalog':
+                echo sprintf(
+                    $title,
+                    'Katalog'
+                );
+                break;
+            case 'incoming_order':
+                echo sprintf(
+                    $title,
+                    'Daftar Pesanan Masuk'
+                );
+                break;
+            case 'profile':
+                echo sprintf(
+                    $title,
+                    'Profil'
+                );
+                break;
+            case 'login':
+                echo sprintf(
+                    $title,
+                    'Masuk'
+                );
+                break;
+            case 'sign_up':
+                echo sprintf(
+                    $title,
+                    'Daftar Akun'
+                );
+                break;
+            case 'order_progress':
+                echo sprintf(
+                    $title,
+                    'Pesanan Anda'
+                );
+                break;
+            case 'checkout':
+                echo sprintf(
+                    $title,
+                    'Checkout'
+                );
+                break;
+            case 'customer_details':
+                echo sprintf(
+                    $title,
+                    'Detail Pelanggan'
+                );
+                break;
+            case 'index':
+                echo sprintf(
+                    $title,
+                    'Solusi Perbaikan Elektronik'
+                );
+                break;
+        }
+    ?>
 </head>
 
 <body>

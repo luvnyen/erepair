@@ -47,6 +47,8 @@
                 <div class="calendar__container">
                     <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Asia%2FJakarta&showTitle=0&showDate=1&showCalendars=0&showTabs=1&showPrint=0&showNav=1&src=ZW4uaW5kb25lc2lhbiNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23009688" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no" class="google-calendar"></iframe>
                 </div>
+
+                <!-- Credit to Attila Hajzer: https://codepen.io/attilahajzer/pen/WbbLpe -->
                 <div class="section__time__container row">
                     <div class="time__container col-md-3">
                         <span class="time__title">Pagi</span>
@@ -178,7 +180,7 @@
             </div>
         </div>
         <div class="button__container mt-5 mb-5">
-            <button class="btn button--blue" onclick="">BUAT PESANAN</button>
+            <button class="btn button--blue" onclick="">Buat Pesanan</button>
         </div>
     </form>
 </div>

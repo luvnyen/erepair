@@ -2,17 +2,11 @@
     padding: 50px 150px;
 }
 
-.ktp__container,
-.content__title,
-.section__input {
+.section__input,
+.time__title {
     color: #104aa3;
 }
 
-.content__title {
-    text-align: center;
-}
-
-.ktp__container,
 .section__container {
     box-shadow: 4px 4px 8px 4px rgba(23, 114, 226, 0.2), 4px 6px 20px 0 rgba(13, 71, 164, 0.19);
     border-radius: 20px;
@@ -27,6 +21,7 @@
 
 .button--blue,
 .button--blue:hover,
+.button--time:hover,
 .content__number__container {
     color: #fff;
 }
@@ -44,12 +39,12 @@
     justify-content: end;
 }
 
-.section__order__container {
-    margin-left: 30px;
+.content__number__container,
+.button--time:hover {
+    background-color: #1f76c7;
 }
 
 .content__number__container {
-    background-color: #1f76c7;
     border-radius: 50%;
     padding: 0;
     display: flex;
@@ -59,20 +54,18 @@
 }
 
 .content__chapter,
-.section__container {
+.section__container,
+.date-picker,
+.button--time,
+.input--time {
     color: #1f76c7;
 }
 
-.content__chapter {
-    font-weight: 500;
-}
-
-.ktp__image {
-    border-radius: 5px;
-}
-
-.chapter__subtitle,
-.additional__subtitle {
+.content__chapter,
+.date-picker,
+.time__title,
+.button--time,
+.input--time {
     font-weight: 500;
 }
 
@@ -84,23 +77,6 @@
 
 .section__input--full {
     width: 90%;
-}
-
-hr {
-    background: #1f76c7;
-    margin: 35px 0;
-}
-
-/* Chrome, Safari, Edge, Opera */
-.section__container input::-webkit-outer-spin-button,
-.section__container input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-/* Firefox */
-.section__container input[type=number] {
-    -moz-appearance: textfield;
 }
 
 .section__container {
@@ -152,9 +128,7 @@ hr {
 .date-picker {
     width: 100%;
     border: 1px solid #1f76c7;
-    color: #1f76c7;
     height: 30px;
-    font-weight: 500;
     padding-left: 10px;
 }
 
@@ -188,30 +162,16 @@ hr {
     padding: 0;
 }
 
-.time__title {
-    font-weight: 500;
-    color: #104aa3;
-}
-
 .button--time {
     border: 1px solid #1f76c7;
     margin: 10px 0;
-    color: #1f76c7;
-    font-weight: 500;
     width: 80%;
     border-radius: 10px;
-}
-
-.button--time:hover {
-    background-color: #1f76c7;
-    color: #fff;
 }
 
 .input--time {
     border: 1px solid #1f76c7;
     margin: 10px 0;
-    color: #1f76c7;
-    font-weight: 500;
     width: 80%;
 }
 
@@ -223,7 +183,6 @@ hr {
     display: block;
     text-align: center;
     margin: 0;
-
 }
 
 .input--time span {

@@ -8,7 +8,8 @@
 .order-summary__total-price,
 .order-details__price,
 .order-details__label,
-.button__payment {
+.button__payment,
+.modal__title {
     color: #104aa3;
 }
 
@@ -122,7 +123,7 @@ hr {
     font-weight: bold;
 }
 
-.button--blue, 
+.button--blue,
 .button--blue:hover {
     background-color: #114aa3;
     color: #fff;
@@ -130,4 +131,58 @@ hr {
     border-radius: 20px;
     font-size: 1.2rem;
     width: 100%;
+}
+
+.modal-content {
+    border-radius: 20px;
+    padding: 30px 35px;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal__title {
+    text-align: center;
+}
+
+.modal-body hr {
+    background: #104aa3;
+}
+
+.button__container--modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button--blue--modal,
+.button--blue--modal:hover {
+    width: fit-content;
+    font-size: 1rem;
+    padding: 5px 60px;
+}
+
+.rating__icon--modal {
+    font-size: 1.2rem;
+}
+
+.modal__rating__container {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.modal__section__container {
+    display: flex;
+    align-items: center;
+}
+
+.details__label--modal {
+    font-weight: 500;
+}
+
+.bank__icon {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
 }
